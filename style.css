@@ -39,7 +39,7 @@ div {                             /* geldt voor div */
 /* Indeling en opmaak voor alle pagina's */
 
 .page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+  width: 1200px;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
@@ -55,7 +55,7 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: red;
+  color: black;
 } 
 
 p {
@@ -137,6 +137,56 @@ nav li a.active {
 
 /* verzin deze zelf... */
 
-
+html, body {
+  height: 100%;
+  width: 100%;
 }
+*{
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(to right top, #8c8c8c, #ffffff);
+}
+main{
+  width: 50;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.Awayout{
+  background-color: hsl(50, 91%, 63%);
+  border-radius: 3px;
+  font-size: 15px;
+}
+.Detroit{
+  background-color: hsl(216, 42%, 71%);
+  border-radius: 2px;
+  font-size: 15px;
+}
+.Warthunder{
+  background-color: hsl(124, 10%, 31%);
+  border-radius: 3px;
+  font-size: 15px;
+}
+button{
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 15px;
+}
+@media screen and (min-width:375px){
+  float: none;
+}
+@mediascreen and (max-width:1440px){
+  float:none;
+
+header, footer { margin: 10px 0px; }
+
+
 
