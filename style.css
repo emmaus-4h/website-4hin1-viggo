@@ -23,7 +23,7 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #ffffff;    /* achtergrondkleur lichtgrijs */
+  background-color: #9c9c9c;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -68,7 +68,7 @@ img {
 }
 
 a {
-  color: red;
+  color: #8a8a8a;
   text-decoration: none;
 }
 
@@ -89,7 +89,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #ff8a75;
+  background-color: #b0b0b0;
   overflow: hidden;
 }
 
@@ -99,7 +99,7 @@ nav ul li {                     /* <li> die child is van <ul> die op zijn beurt 
 
 nav li a {
   display: block;
-  color: white;
+  color: #6b6b6b;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -110,7 +110,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-  background-color: #a80000;
+  background-color: #ffffff;
 }
 
 
@@ -165,7 +165,7 @@ main{
 }
 .Detroit{
   background-color: hsl(216, 42%, 71%);
-  border-radius: 2px;
+  border-radius: 3px;
   font-size: 15px;
 }
 .Warthunder{
