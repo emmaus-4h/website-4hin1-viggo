@@ -147,7 +147,7 @@ html, body {
   box-sizing: border-box;
 }
 body{
-  background: linear-gradient(to right top, #8c8c8c, #ffffff);
+  background-color: #9c9c9c; 
 }
 main{
   width: 50;
