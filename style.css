@@ -27,7 +27,7 @@ html, body {                      /* geldt voor html en body */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
-div {                             /* geldt voor div */
+div, main {                             /* geldt voor div */
   overflow: hidden;               /* zorgt dat een <div> de hoogte krijgt van wat erin zit
                                      (anders tellen de floats erin niet mee voor de hoogte
                                      en wordt dus wel eens hoogte 0) */
@@ -39,7 +39,7 @@ div {                             /* geldt voor div */
 /* Indeling en opmaak voor alle pagina's */
 
 .page {
-  width: 1200px;                   /* vaste breedte van 700 pixels */
+  width: 80%;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;              /* boven en onder 10 pixels marge,
                                      links en rechts marge gelijk verdeeld (gecentreerd) */
 }
@@ -152,11 +152,18 @@ body{
 main{
   width: 50;
   margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   font-family: 'Lexend Deca', sans-serif;
+}
+
+.Games {
+  width:300px;
+  float:right;
+}
+.Games img {
+  display:inline-block;
+  width:300px;
+  margin:auto;
+  
 }
 .Awayout{
   background-color: hsl(50, 91%, 63%);
