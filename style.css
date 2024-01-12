@@ -23,8 +23,9 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #9c9c9c;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  background: linear-gradient(to left bottom, #e0ffe2, #f0ff80);
+  /* achtergrondkleur lichtgrijs */
+  color: #000000;               /* tekstkleur donkergrijs */
 }  
 
 div, main {                             /* geldt voor div */
@@ -68,7 +69,7 @@ img {
 }
 
 a {
-  color: #8a8a8a;
+  color: linear-gradient(to left bottom, #000000, #303030);
   text-decoration: none;
 }
 
@@ -89,7 +90,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #b0b0b0;
+  background-color: #b0ff94;
   overflow: hidden;
 }
 
@@ -99,14 +100,14 @@ nav ul li {                     /* <li> die child is van <ul> die op zijn beurt 
 
 nav li a {
   display: block;
-  color: #6b6b6b;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: #aaaaaa;
+  background-color: #073701;
 }
 
 nav li a.active {
@@ -166,17 +167,17 @@ main{
   
 }
 .Awayout{
-  background-color: hsl(50, 91%, 63%);
+  background: linear-gradient(to right top, #e7ea53, #fff1ad);
   border-radius: 3px;
   font-size: 15px;
 }
 .Detroit{
-  background-color: hsl(216, 42%, 71%);
+  background: linear-gradient(to right top, #6bf5ff, #8ac2ff);
   border-radius: 3px;
   font-size: 15px;
 }
 .Warthunder{
-  background-color: hsl(124, 10%, 31%);
+  background: linear-gradient(to right top, #008539, #96ff94);
   border-radius: 3px;
   font-size: 15px;
 }
