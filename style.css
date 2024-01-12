@@ -157,7 +157,7 @@ main{
 
 .Games {
   width:300px;
-  float:right;
+  float: left;
 }
 .Games img {
   display:inline-block;
