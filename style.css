@@ -1,4 +1,4 @@
-/* Instellingen om fouten te helpen vinden,
+//* Instellingen om fouten te helpen vinden,
    uncomment om aan te zetten */
 
 /* zorg dat elke box een gestippelde rand krijgt, 
@@ -100,18 +100,18 @@ nav ul li {                     /* <li> die child is van <ul> die op zijn beurt 
 
 nav li a {
   display: block;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: #073701;
+  background-color: #15b300;
 }
 
 nav li a.active {
-  background-color: #ffffff;
+  background-color: #00a803;
 }
 
 
